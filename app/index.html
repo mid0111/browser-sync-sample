@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+  </head>
+  <body>
+    <h1>Hello!!</h1>
+
+    <div>
+      <Button onclick='yo()'>Click!!</Button>
+      <div id='text'></div>
+    </div>
+
+    <script>
+      yo = function() {
+        document.getElementById('text').textContent += 'Yo!';
+      }
+    </script>
+  </body>
+</html>
